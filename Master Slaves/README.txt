@@ -1,1 +1,1 @@
-The project is based on client and server communication, and its still under development.
+This Project is based on tracking of Mobile
