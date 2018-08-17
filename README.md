@@ -1,2 +1,2 @@
 # My_Mini_Projects
-Mini Projects
+Android and Web Mini Projects
