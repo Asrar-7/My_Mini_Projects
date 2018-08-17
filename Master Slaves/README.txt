@@ -1,0 +1,1 @@
+The project is based on client and server communication, and its still under development.

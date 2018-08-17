@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign In or Register</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="error_invalid_email">This Email Address Is Invalid</string>
+    <string name="error_invalid_password">This Password Is Too Short</string>
+    <string name="error_incorrect_password">This Password Is Incorrect</string>
+    <string name="error_field_required">This Field Is Required</string>
+    <string name="permission_rationale">"Contacts Permissions Are Needed For Providing Email
+        Completions."
+    </string>
+
+
+    <string name="app_name">Master Slaves</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Track Friends</string>
+    <string name="nav_item_buses">Track Buses</string>
+    <string name="nav_item_logout">Log Out</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_buses</item>
+        <item>@string/nav_item_logout</item>
+    </string-array>
+
+    <string name="title_buses">Track Bus</string>
+    <string name="title_friends">Track Friends</string>
+    <string name="title_home">Home</string>
+</resources>

@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        masterslaveskeystore {
+            keyAlias 'masterslaveskeystore'
+            keyPassword 'F56A4C89'
+            storeFile file('C:/Users/Asrar/Desktop/masterslave_keystore/masterslaveskeystore.jks')
+            storePassword 'F56A4C89'
+        }
+    }
+    useLibrary 'org.apache.http.legacy'
+    compileSdkVersion 24
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId 'com.project.masterslaves'
+        minSdkVersion 17
+        targetSdkVersion 24
+        versionCode 3
+        versionName "3.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.weiwangcn.betterspinner:library-material:1.1.0'
+    compile 'com.android.support:recyclerview-v7:24.+'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.google.android.gms:play-services-maps:7.8.0'
+    compile 'com.google.android.gms:play-services-location:7.8.0'
+    compile 'com.android.support:support-v4:24.2.1'
+}
