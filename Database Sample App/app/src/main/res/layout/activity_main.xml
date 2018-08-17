@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="MainActivity">
+
+    <EditText
+        android:id="@+id/editText_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:inputType="number"
+        android:hint="Id"/>
+
+
+    <EditText
+        android:id="@+id/editText_nam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_id"
+        android:hint="Name"
+        />
+
+    <EditText
+        android:id="@+id/editText_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_nam"
+        android:hint="Surname"/>
+
+    <EditText
+        android:id="@+id/editText_Marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_surname"
+        android:inputType="number"
+        android:hint="Marks"
+
+        />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="212dp"
+        android:onClick="AddData"
+        android:text="@string/add_data"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_add"
+        android:layout_centerHorizontal="true"
+        android:text="View"
+
+        />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_view"
+        android:layout_centerHorizontal="true"
+        android:onClick="updateData"
+        android:text="Update"
+        />
+
+
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_update"
+        android:layout_centerHorizontal="true"
+        android:text="Delete"
+        />
+
+    <Button
+        android:id="@+id/button_viewAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_delete"
+        android:layout_centerHorizontal="true"
+        android:text="View All"
+        />
+
+</RelativeLayout>
